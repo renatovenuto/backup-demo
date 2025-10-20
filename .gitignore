@@ -1,0 +1,4 @@
+backup.conf
+*.log
+*.tar
+*.tar.gz

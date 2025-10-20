@@ -1,0 +1,24 @@
+# Configuration file for backup-demo
+# EN: Source directory to backup (absolute path)
+# IT: Cartella sorgente da salvare (percorso assoluto)
+SOURCE_DIR=/home/user/working
+
+
+# EN: Destination directory where backups will be stored (absolute path)
+# IT: Cartella destinazione per i backup (percorso assoluto)
+BACKUP_DIR=/home/user/backup
+
+
+# EN: Backup file prefix (will produce files like backup_working_YYYY-MM-DD.tar)
+# IT: Prefisso del file di backup (genererà file come backup_working_YYYY-MM-DD.tar)
+BACKUP_PREFIX=backup_working
+
+
+# EN: Max number of daily backups to keep (including today's uncompressed)
+# IT: Numero massimo di backup giornalieri da mantenere (compreso quello corrente non compresso)
+KEEP_DAYS=6
+
+
+# EN: Path to log file (optional). If empty, output goes to stdout.
+# IT: Percorso del file di log (opzionale). Se vuoto, l'output va su stdout.
+LOG_FILE=/var/log/backup_working.log
